@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<!-- React kütüphanesi -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+
+<!-- ReactDOM (tarayıcıya render eden kütüphane) -->
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Babel: JSX yazabilmek için bu kütüphane gerekir -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+
+
+</head>
+<body>
+    
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        
+        // Performans => React
+        // const template = React.createElement("h1", null, "Hello React");
+        const template = <h1>Hello React</h1>
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        root.render(template);
+
+        // Kolay Kullanım => JSX {JavaScript XML}
+
+       
+
+
+
+    </script>
+
+
+</body>
+</html>
